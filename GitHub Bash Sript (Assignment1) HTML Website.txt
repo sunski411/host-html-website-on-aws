@@ -1,0 +1,12 @@
+#AOS Notes Assignment1
+#GitHub Script
+sudo su
+yum update -y
+yum install -y httpd
+cd /var/www/html
+wget https://github.com/sunski411/host-html-website-on-aws/archive/refs/heads/main.zip
+unzip main.zip
+cp -r host-html-website-on-aws-main/* /var/www/html
+rm -rf host-html-website-on-aws-main  main.zip
+systemctl enable httpd
+systemctl start httpd

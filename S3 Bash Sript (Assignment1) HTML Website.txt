@@ -1,0 +1,12 @@
+#AOS Notes Assignment1
+#S3 Script
+sudo su
+yum update -y
+yum install -y httpd
+cd /var/www/html
+wget https://sunski411.s3.amazonaws.com/mole+(1).zip
+unzip mole.zip
+cp -r mole-main/* /var/www/html
+rm -rf mole-main mole+(1).zip
+systemctl enable httpd
+systemctl start httpd
