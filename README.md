@@ -1,3 +1,5 @@
+![Alt text]Project1.jpg
+
 # Hosting a Static Website on a Default AWS VPC
 
 This repository documents the process of hosting a static website on AWS using the default network architecture. The project involves uploading web files to an S3 bucket and GitHub repository, then deploying them onto an EC2 instance using Bash scripts. Below are the detailed steps and resources utilized in this setup:
