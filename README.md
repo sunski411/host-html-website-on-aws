@@ -1,4 +1,4 @@
-![Alt text]Project1.jpg
+![Alt text](Project1.jpg)
 
 # Hosting a Static Website on a Default AWS VPC
 
